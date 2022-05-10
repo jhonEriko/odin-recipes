@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-inline: 8.33%;
+    color:rgb(92, 63, 63);
+}
+
+.hero div {
+    /* border: 1px solid black; */
+    width: 41.66%;
+    height: 75vh;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1em 2em;
+    flex-grow: 1;
+}
+
+.hero-header p, .hero-header h2 {
+    width: 80%;
+}
+.hero-header h1 {
+    font-size: 3.5em;
+    line-height: 1.2em;
+    text-decoration: underline;
+}
+
+.hero-header h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 8px;
+}
+
+.hero-header p {
+    width: 60%;
+    font-size: 0.95em;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.preparation {
+    /* border: 1px solid black; */
+    width: 83.33%;
+    height: auto;
+    margin: 5em 8.33%; 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(9, 247, 255);
+    color: rgb(92, 63, 63);
+    position: relative;
+}
+
+.preparation div {
+    /* border: 1px solid black; */
+    width: 41.66%;
+    padding: 6em 5em;
+}
+
+.preparation .steps {
+    flex-grow: 1;
+}
+
+.preparation h3 {
+    font-size: 2.8em;
+    line-height: 1.5em;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol li {
+    margin-bottom: 1.1em
+}
+
+ol li p {
+    text-indent: 22px;
+    margin: 5px 0 5px 15px;
+}
+
+ul li, ol li p {
+    font-size: 0.95em;
+    line-height: 1.2em;
+}
+
+.preparation a {
+    text-decoration: none;
+    color:rgb(92, 63, 63);
+    border: 2px solid rgb(92, 63, 63);
+    padding: 0.3em 1em;
+    border-radius: 25px;
+    position: absolute;
+    right: 5em;
+    bottom: 2em;
+}
+
+.preparation a:hover {
+    background-color: rgb(92, 63, 63);
+    color: rgb(9, 247, 255);
+    transition: 0.8s;
+}
